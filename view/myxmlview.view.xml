@@ -1,0 +1,14 @@
+<core:View xmlns:core='sap.ui.core.mvc' xmlns='sap.m' controllerName='com.sapui5.Controller.myController'>
+    <App>
+
+        <Page title='HI  this is yogi XML View' >
+            <!-- <Content> -->
+             <Input id='myxmlinput'></Input>
+             <Button id='myxmlbtn1' text='Press me'></Button>
+             <Button press='xmlfun' id='myxmlbtn2' text='EnablePress Btn'></Button>
+            <!-- </Content> -->
+        </Page>
+    </App>
+
+
+</core:View>

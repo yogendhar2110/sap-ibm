@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sapui5.Controller.myController">
+<mvc:XMLView viewName="com.sapui5.view.myxmlview"></mvc:XMLView>
+<!-- <mvc:HTMLView viewName="com.sapui5.view.myhtmlview"></mvc:HTMLView> -->
+<mvc:JSView viewName="com.sapui5.view.myjsview"></mvc:JSView>
+<mvc:JSONView viewName="com.sapui5.view.myjsonview"></mvc:JSONView>
+</mvc:View>

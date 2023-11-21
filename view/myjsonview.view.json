@@ -1,0 +1,11 @@
+{
+  "Type":"sap.ui.core.mvc.view.JSONView",
+  "controllerName":"com.ibm.simpleapp.controller.Main",
+  "content":[{
+      "Type":"sap.m.Button",
+      "text":"YOGI Button",
+      "press":"onPressJSON"
+  }]
+}
+  
+  
