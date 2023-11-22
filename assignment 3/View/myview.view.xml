@@ -1,0 +1,111 @@
+<core:View xmlns:core='sap.ui.core' xmlns:l='sap.ui.layout' xmlns='sap.m' controllerName='sapui5.Controller.mycontroller' xmlns:form='sap.ui.layout.form'>
+    <!-- <Button text='hi this is xml btn' press='xmlfun'></Button> -->
+    <!-- <l:VerticalLayout id='vertically' width="4rem"   >
+        <l:content id='vercont'>
+            <Text text='This is contnent' />
+            <Button text="This is Add Content BTN" press='xmlfun1'/>
+            <Button text="This is Remove Content Layout Btn" press='xmlfun'/> 
+
+
+        </l:content>
+    </l:VerticalLayout> -->
+    <!-- <l:HorizontalLayout id='horizontally'  >
+        <l:content id='vercont'>
+            <Text text='This is contnent' />
+            <Button text="This is Add Content BTN" press='xmlfun1'/>
+            <Button text="This is Remove Content Layout Btn" press='xmlfun'/> 
+
+
+        </l:content>
+    </l:HorizontalLayout> -->
+    <!-- <l:Grid defaultSpan='XL3 L2 M4 S12' >
+      <l:content >
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+        <Text text='Text From Grid'/>
+      </l:content>
+    </l:Grid> -->
+    <!-- <l:ResponsiveFlowLayout>
+    
+        <Text text='This is Text'>
+             <layoutData>
+        <l:ResponsiveFlowLayoutData linebreak='true' ></l:ResponsiveFlowLayoutData >
+       </layoutData>
+    </Text>
+    <Text text='This is Text '>
+        <layoutData>
+   <l:ResponsiveFlowLayoutData linebreak='true' ></l:ResponsiveFlowLayoutData >
+  </layoutData>
+</Text>
+    <Button text='THis is Btn'>
+        <layoutData>
+            <l:ResponsiveFlowLayoutData linebreak='false'>
+            
+        </l:ResponsiveFlowLayoutData>
+        </layoutData>
+
+        </Button>
+    
+
+
+    </l:ResponsiveFlowLayout> -->
+    <!-- <Panel>
+        
+        
+        <infoToolbar>
+ 
+            <Title text="Panel with picture" />
+            <l:content>
+                <Title text="Panel with picture" />
+  
+     </infoToolbar>
+        <headerToolbar>
+			<OverflowToolbar>
+
+				<Title text="Panel with picture"/>
+			</OverflowToolbar>
+		</headerToolbar>
+        <content>
+
+            <Text text='lorem epsum ' />
+                    <Button text="This is Btn" />
+        </content>
+
+    </Panel> -->
+    <form:SimpleForm breakpointM='890'
+     columnM='1' columnsXL='2' columnsL='1' layout="ResponsiveGridLayout">
+        <form:content >
+            <core:Title text='Personal Details'/>
+            <!-- <Label text='Name' /> -->
+            <Label text='Name :'/>
+            <Input />
+            <Label text='Last Name :'/>
+            <Input />
+            <Label text='Email :'/>
+            <Input />
+            <Label text='PhoneName :'/>
+            <Input type='Tel' />
+
+            <core:Title text='Office Details'/>
+            <!-- <Label text='Name' /> -->
+            <Label text='CompanyName :'/>
+            <Input />
+            <Label text='Company Website :' />
+            <Input type='Url' />
+            <Label text='Company Phone Number :'/>
+            <Input type='Tel' />
+            <Label text='Company Address :'/>
+            <Input type='Text' />
+</form:content>
+        
+    </form:SimpleForm>
+</core:View>
